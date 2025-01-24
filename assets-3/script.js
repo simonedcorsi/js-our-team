@@ -45,7 +45,7 @@ for( i = 0; i < teamMembers.length; i++ ){
   cardContainer.innerHTML +=
   `         <div class="flex">
                 <figure>
-                    <img height="90px" src='../${element.img}'' alt="">
+                    <img height="90px" src='./${element.img}'' alt="">
                 </figure>
                 <div class="flex flex-column">
                     <h5>${element.name}</h5>
